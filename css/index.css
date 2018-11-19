@@ -1,0 +1,211 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.header {
+    background: #ffcc00;
+    color: #010101;
+    padding-top: 18px;
+    padding-bottom: 105px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+.menu__item {
+    margin: 0 42px;
+}
+
+.menu__item a {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+}
+
+.offer {
+    margin-top: 100px;
+}
+
+.offer__title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top: 15px;
+    width: 400px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    margin-right: 30px;
+}
+
+.ipad {
+    display: block;
+    margin: 60px auto 0;
+}
+
+.title {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.title__main {
+    font-size: 32px;
+}
+
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.features {
+    margin-bottom: 65px;
+}
+
+.features__icon {
+    font-size: 40px;
+    margin-right: 37px;
+}
+
+.features__text {
+    color: #898989;
+}
+
+.touch {
+    background: #000;
+    color: #fff;
+}
+
+.yellow {
+    color: #ffcc00;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__input {
+    background: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 580px;
+    padding: 10px 0;
+    border: 0;
+    margin-right: 15px;
+    padding-left: 23px;
+    outline: none;
+}
+
+.form__btn {
+    background: #ffcc00;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 126px;
+    border: 0;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.footer {
+    background: #000;
+    padding: 50px 0 94px;
+}
+
+.credits {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    width: 184px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+    .menu {
+        margin: 0 auto;
+    }
+    .offer {
+        text-align: center;
+    }
+    .offer__text {
+        margin: 15px auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .title__text {
+        width: auto;
+    }
+    .form__input {
+        width: 100%;
+        margin-right: 0;
+    }
+    .form__btn {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .menu {
+        flex-direction: column;
+    }
+    .menu__item {
+        text-align: center;
+    }
+    .offer__text {
+        width: auto;
+    }
+    .ipad {
+        width: 100%;
+    }
+}
